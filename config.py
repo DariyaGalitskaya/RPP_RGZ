@@ -8,5 +8,5 @@ login_manager.login_view = 'fetch.login_post'
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:Ln3486160@localhost:5432/rpp_6'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:postgres@localhost:5432/rgz''
 app.config['SQLAlchemy_TRACK_MODIFIVATTION'] = False
